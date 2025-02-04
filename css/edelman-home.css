@@ -1,0 +1,223 @@
+.edelman .edelman-12 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 0.375rem;
+}
+
+.edelman .edelman-12 .cell {
+    position: relative;
+}
+
+.edelman .edelman-12 .cell.aspect-2x3 {
+	aspect-ratio: 3 / 2;
+}
+
+.edelman .edelman-12 .cell.aspect-3x2 {
+	aspect-ratio: 3 / 2;
+}
+
+.edelman .edelman-12 .cell .overlay {
+    position: absolute;
+    left: 0;
+    padding: 1rem 1rem 1rem 1.125rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.edelman .edelman-12 .cell:hover .overlay {
+    opacity: 1;
+}
+
+.edelman .edelman-12 .cell .overlay.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.edelman .edelman-12 .cell .overlay p {
+     font-family: "EdelmanChromatic-Regular", Helvetica, Arial, sans-serif;
+     font-size: 0.875rem;
+     line-height: 1.35;
+     margin-bottom: 0;
+     color: #000;
+     padding-bottom: 0;
+}
+
+.edelman .edelman-12 .cell .overlay p a {
+     border-bottom: 0;
+     padding: 0;
+     text-decoration: none;
+     color: #000 !important;
+     white-space: nowrap;
+}
+
+.edelman .edelman-12 .cell .overlay p a:hover {
+     border-bottom: 0;
+     padding: 0;
+     text-decoration: underline;
+     color: #000 !important;
+}
+
+.edelman .edelman-12 .cell .overlay p.white {
+    color: #FFF !important;
+}
+
+.edelman .edelman-12 .cell .overlay p.white a {
+    color: #FFF !important;
+}
+
+.edelman .edelman-12 .cell .overlay p.white a:hover {
+    color: #FFF !important;
+}
+
+.edelman .edelman-12 .cell .image-wrapper-background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.edelman .edelman-12 h2 {
+    font: 24px/28px "EdelmanChromatic-Regular", Helvetica, Arial, sans-serif;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+.edelman .edelman-12 h2:hover {
+    color: #c18610 !important;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .edelman .edelman-12 {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+    
+    .edelman .edelman-12 .cell.h-span-2 {
+        grid-column: span 2;
+    }
+
+    .edelman .edelman-12 .cell.h-span-3 {
+        grid-column: span 3;
+    }
+
+    .edelman .edelman-12 .cell.h-span-4 {
+        grid-column: span 4;
+    }
+
+    .edelman .edelman-12 .cell.h-span-5 {
+        grid-column: span 5;
+    }
+
+    .edelman .edelman-12 .cell.h-span-6 {
+        grid-column: span 6;
+    }
+
+    .edelman .edelman-12 .cell.h-span-8 {
+        grid-column: span 8;
+    }
+
+    .edelman .edelman-12 .cell.h-span-8 {
+        grid-column: span 8;
+    }
+
+    .edelman .edelman-12 .cell.h-span-9 {
+        grid-column: span 9;
+    }
+
+    .edelman .edelman-12 .cell.h-span-10 {
+        grid-column: span 10;
+    }
+
+    .edelman .edelman-12 .cell.h-span-11 {
+        grid-column: span 11;
+    }
+
+    .edelman .edelman-12 .cell.h-span-12 {
+        grid-column: span 12;
+    }
+
+    .edelman .edelman-12 .cell.v-span-2 {
+        grid-row: span 2;
+    }
+
+    .edelman .edelman-12 .cell.v-span-3 {
+        grid-row: span 3;
+    }
+
+    .edelman .edelman-12 .cell.v-span-4 {
+        grid-row: span 4;
+    }
+
+    .edelman .edelman-12 .cell.v-span-5 {
+        grid-row: span 5;
+    }
+
+    .edelman .edelman-12 .cell.v-span-6 {
+        grid-row: span 6;
+    }
+
+    .edelman .edelman-12 .cell.v-span-7 {
+        grid-row: span 7;
+    }
+
+    .edelman .edelman-12 .cell.v-span-8 {
+        grid-row: span 8;
+    }
+
+    .edelman .edelman-12 .cell.v-span-9 {
+        grid-row: span 8;
+    }
+
+    .edelman .edelman-12 .cell.v-span-10 {
+        grid-row: span 8;
+    }
+
+    .edelman .edelman-12 .cell.v-span-11 {
+        grid-row: span 8;
+    }
+
+    .edelman .edelman-12 .cell.v-span-12 {
+        grid-row: span 8;
+    }
+
+    .edelman .edelman-12 .cell.aspect-2x3 {
+    	aspect-ratio: 2 / 3;
+    }
+
+    .edelman .edelman-12 .cell.aspect-3x2 {
+    	aspect-ratio: 3 / 2;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 1256px) {
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+

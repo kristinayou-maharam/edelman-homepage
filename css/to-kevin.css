@@ -1,0 +1,34 @@
+.grid.kt-home .collaborator-marquee-container {
+    width: 100%;
+    height: 100%;
+    overflow:hidden
+}
+
+.grid.kt-home .collaborator-marquee-container .collaborator-marquee-wrapper {
+    width: 100%;
+    background-color:#f1f1f1
+}
+
+.grid.kt-home .collaborator-marquee-container .collaborator-marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display:inline-block
+}
+
+.grid.kt-home .collaborator-marquee-container .collaborator-marquee p {
+    display: inline-block;
+    font: normal 54px/44px "KTFold-Medium", Helvetica, Arial, sans-serif !important;
+    color:#f99f00
+}
+
+.grid.kt-home .collaborator-marquee-container .cm1, .grid.kt-home .collaborator-marquee-container .cm3, .grid.kt-home .collaborator-marquee-container .cm5 {
+    animation:marquee1 90s linear infinite
+}
+
+.grid.kt-home .collaborator-marquee-container .cm2, .grid.kt-home .collaborator-marquee-container .cm4, .grid.kt-home .collaborator-marquee-container .cm6 {
+    animation:marquee2 90s linear infinite
+}
+
+.grid.kt-home h2.white, .grid.kt-home h3.white {
+    color:#FFFFFF
+}

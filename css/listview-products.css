@@ -1,0 +1,9 @@
+.grid.products {
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	grid-gap: 0.5rem;
+}
+
+.cell {
+    background-color: rgba(0,0,0,0.125);
+    min-height: 10rem;
+}

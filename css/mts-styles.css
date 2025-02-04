@@ -1,0 +1,56 @@
+/* -- VARIABLES -- */
+
+:root {
+  --maharam: #149545;
+  --edelman: #998f4d;
+  --knoll-textiles: #f99f00;
+  --mts-ground: #cec7ba;
+}
+
+
+.mts-ground {
+    background: #ded9cf !important;
+}
+
+.manufacturers {
+    width: 100%;
+    background: rgba(0,0,0,0.125);
+    font-size: 0;
+}
+
+.manufacturer {
+    position: relative;
+    float: left;
+    width: calc((100% - 4rem) / 5 );
+    aspect-ratio: 1 / 1;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.manufacturer:nth-child(5n+0) {
+    margin-right: 0;
+}
+
+.manufacturer-logo {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transform: all 0.25s ease
+}
+
+.manufacturer-logo:hover {
+    width: 120%;
+    margin-top: -10%;
+    margin-left: -10%;
+}
+
+.manufacturer-logo img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+

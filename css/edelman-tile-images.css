@@ -1,0 +1,137 @@
+.edelman .edelman-tiles {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-gap: 0.5rem;
+    margin-bottom: 0.125rem;
+}
+
+.edelman .edelman-tiles .cell.h-span-2 {
+    grid-column: span 2;
+}
+
+.edelman .edelman-tiles .cell.h-span-3 {
+    grid-column: span 3;
+}
+
+.edelman .edelman-tiles .cell.h-span-4 {
+    grid-column: span 4;
+}
+
+.edelman .edelman-tiles .cell.h-span-5 {
+    grid-column: span 5;
+}
+
+.edelman .edelman-tiles .cell.h-span-6 {
+    grid-column: span 6;
+}
+
+.edelman .edelman-tiles .cell.h-span-8 {
+    grid-column: span 8;
+}
+
+.edelman .edelman-tiles .cell.h-span-8 {
+    grid-column: span 8;
+}
+
+.edelman .edelman-tiles .cell.h-span-9 {
+    grid-column: span 9;
+}
+
+.edelman .edelman-tiles .cell.h-span-10 {
+    grid-column: span 10;
+}
+
+.edelman .edelman-tiles .cell.h-span-11 {
+    grid-column: span 11;
+}
+
+.edelman .edelman-tiles .cell.h-span-12 {
+    grid-column: span 12;
+}
+
+.edelman .edelman-tiles .cell.v-span-2 {
+    grid-row: span 2;
+}
+
+.edelman .edelman-tiles .cell.v-span-3 {
+    grid-row: span 3;
+}
+
+.edelman .edelman-tiles .cell.v-span-4 {
+    grid-row: span 4;
+}
+
+.edelman .edelman-tiles .cell.v-span-5 {
+    grid-row: span 5;
+}
+
+.edelman .edelman-tiles .cell.v-span-6 {
+    grid-row: span 6;
+}
+
+.edelman .edelman-tiles .cell.v-span-7 {
+    grid-row: span 7;
+}
+
+.edelman .edelman-tiles .cell.v-span-8{
+    grid-row: span 8;
+}
+
+.edelman .edelman-tiles .cell img {
+    width: 100%;
+}
+
+.img-bkgnd {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.decision-drivers-wrapper {
+    padding: 1rem 6rem 1rem 1rem;
+}
+
+body.edelman .decision-drivers-wrapper .product-name {
+    font: 24px/30px "EdelmanChromatic-Semibold", Helvetica, Arial, sans-serif;
+    padding-bottom: 2px;
+}
+
+
+.color-thumbnails {
+    padding: 24px 0 12px 0;
+    border-top: 1px solid #ccc;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.color-thumbnails .col-auto {
+    padding-left: 12px;
+}
+
+.color-thumbnails .thumb {
+    width: 59px;
+    height: 59px;
+    margin: 0 12px 12px 0;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.inset-1 {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
