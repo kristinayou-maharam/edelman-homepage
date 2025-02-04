@@ -87,7 +87,7 @@
 .edelman .edelman-12 h2 {
     font: 24px/28px "EdelmanChromatic-Regular", Helvetica, Arial, sans-serif;
     padding-top: 1rem;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     padding-bottom: 3rem;
 }
 
